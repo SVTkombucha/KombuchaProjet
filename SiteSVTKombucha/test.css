@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1em;
+}
+
+.main-nav {
+    margin-top: 5px;
+
+}
+
+.main-nav a {
+    padding: 10px 90px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.main-nav a {
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #000000;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.imge{
+    width: 200px;
+    height: 200px;
+}
+
+.header {
+    border: 1px solid #a2a2a2;
+    background-color: #fdfd9d;
+    
+}
+
+.footer
+{
+    background-color: #fdfd9d ;
+        margin-bottom: -20px;
+}
+
+
+.social
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social a 
+{
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid beige;
+    width: 25px;
+    border-radius: 8px;
+    color: black;
+}
+
+.social a:hover
+{
+    background-color: antiquewhite;
+}
+
+.footer ul 
+{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer ul li 
+{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footer ul li a 
+{
+    text-decoration: none;
+    color: black  ;
+    display: inline-block;
+}
+
+.footer ul li a:hover
+{
+    color: skyblue;
+}
+
+
+.copy-right
+{
+    text-align: center;
+    padding-bottom: 30px;
+    color: black;
+}
+@media (min-width: 769px) {
+
+    .header,
+    .main-nav {
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+
+        .header {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1150px;
+        }
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}

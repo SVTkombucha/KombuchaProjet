@@ -1,0 +1,591 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1em;
+}
+
+.main-nav {
+    margin-top: 5px;
+
+}
+
+.main-nav a {
+    padding: 10px 90px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.main-nav a {
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #000000;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.imge {
+    width: 200px;
+    height: 200px;
+}
+
+.header {
+    border: 1px solid #a2a2a2;
+    background-color: #fdfd9d;
+
+}
+
+.Titre1 {
+    text-align: center;
+    margin-left: 430px;
+    width: 450px;
+    background-color: #eaff8e;
+    border-radius: 7px;
+
+}
+
+.Titre1:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.2s;
+
+}
+
+.Div1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Quest1 {
+    height: 20%;
+    width: 450px;
+    margin-left: 20px;
+    text-align: center;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    position: relative;
+    top: 80px;
+}
+
+.Parag1 {
+    margin-left: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+.Quest2 {
+    width: 450px;
+    text-align: center;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    width: 370px;
+    margin-left: 55px;
+}
+
+.Parag2 {
+    margin-left: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+.Boutton {
+    background-color: #fdfd9d;
+    padding: 2px;
+}
+
+.Boutton:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.Quest3 {
+    width: 450px;
+    height: 30%;
+    text-align: center;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    width: 370px;
+    margin-left: 55px;
+    margin-top: 71px;
+}
+
+.Parag3 {
+    margin-left: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+
+}
+
+.Quest4 {
+    width: 450px;
+    height: 42%;
+    text-align: center;
+    background-color: #eaff8e;
+    border-radius: 7px;
+    width: 370px;
+    margin-left: 55px;
+    margin-top: 71px;
+
+}
+
+.Parag4 {
+    margin-left: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #fdfd9d;
+    margin-bottom: -20px;
+}
+
+
+.social {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social a {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid beige;
+    width: 25px;
+    border-radius: 8px;
+    color: black;
+}
+
+.social a:hover {
+    background-color: antiquewhite;
+}
+
+.footer ul {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.footer ul li a:hover {
+    color: skyblue;
+}
+
+
+.copy-right {
+    text-align: center;
+    padding-bottom: 30px;
+    color: black;
+}
+
+@media (min-width: 769px) {
+
+    .header,
+    .main-nav {
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+
+        .header {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1150px;
+        }
+    }
+
+}
+
+@media (min-width: 851px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width:1142px) {
+    .main-nav a {
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width:854px) {
+    .main-nav a {
+        padding: 10px 30px;
+    }
+
+    .Titre1 {
+        margin-left: 170px;
+    }
+
+}
+
+@media (max-width:773px) {
+    .Titre1 {
+        font-size: 1.5em;
+    }
+
+    .Quest1 {
+        font-size: 1.5em;
+        width: 80%;
+        height: 15%;
+        margin-right: 0px;
+    }
+
+    .Parag1 {
+        width: 100%;
+        position: relative;
+        right: 50px;
+        margin-left: 0px;
+    }
+
+    .Quest2 {
+        font-size: 1.5em;
+        width: 60%;
+        height: 80%;
+    }
+
+    .Parag2 {
+
+        position: relative;
+        right: 70px;
+        width: 100%;
+
+    }
+
+    .Quest3 {
+        font-size: 1.5em;
+        width: 60%;
+        height: 20%;
+    }
+
+    .Parag3 {
+        position: relative;
+        right: 70px;
+        width: 100%;
+
+    }
+
+    .Quest4 {
+        font-size: 1.5em;
+        width: 60%;
+        height: 25%;
+    }
+
+    .Parag4 {
+        position: relative;
+        right: 50px;
+        width: 100%;
+        margin-left: 0px;
+
+    }
+}
+
+@media (max-width:856px) {
+    .Titre1 {
+        position: relative;
+        right: 200px;
+    }
+}
+
+@media (max-width:753px) {
+    .Quest1 {
+        font-size: 1.3em;
+        height: 6%;
+        position: relative;
+        right: 17px;
+    }
+}
+
+@media (max-width:769px) {
+    .imge {
+        position: relative;
+        left: 280px;
+    }
+}
+
+@media (max-width:719px) {
+    .Quest1 {
+        height: 15%;
+    }
+}
+
+@media (max-width:375px) {
+    .imge {
+        position: relative;
+        left: 90px;
+    }
+
+    .Titre1 {
+        margin-right: 10px;
+    }
+
+    .Div1 {
+        display: block;
+    }
+
+    .Quest1 {
+        width: 90%;
+        height: 6%;
+        position: relative;
+        top: 10px;
+        left: 2px;
+
+    }
+
+    .Parag1 {
+        position: relative;
+        left: 18px;
+        width: 90%;
+    }
+
+    .Quest2 {
+        position: relative;
+        left: 10px;
+    }
+
+    .Parag2 {
+        position: relative;
+        left: 1px;
+        width: 90%;
+    }
+
+    .Quest3 {
+        width: 90%;
+        position: relative;
+        right: 29px;
+        bottom: 30px;
+    }
+
+    .Parag3 {
+        position: relative;
+        left: 1px;
+        width: 90%;
+        bottom: 20px;
+    }
+
+    .Quest4 {
+        width: 90%;
+        position: relative;
+        right: 35px;
+        bottom: 30px;
+    }
+
+    .Parag4 {
+        width: 90%;
+        position: relative;
+        left: 19px;
+    }
+
+}
+
+@media (max-width:414px) {
+    .imge {
+        position: relative;
+        left: 90px;
+    }
+
+    .Titre1 {
+        margin-right: 10px;
+    }
+
+    .Div1 {
+        display: block;
+    }
+
+    .Quest1 {
+        width: 90%;
+        height: 6%;
+        position: relative;
+        top: 10px;
+        left: 2px;
+
+    }
+
+    .Parag1 {
+        position: relative;
+        left: 18px;
+        width: 90%;
+    }
+
+    .Quest2 {
+        position: relative;
+        left: 10px;
+    }
+
+    .Parag2 {
+        position: relative;
+        left: 1px;
+        width: 90%;
+    }
+
+    .Quest3 {
+        width: 90%;
+        position: relative;
+        right: 29px;
+        bottom: 30px;
+    }
+
+    .Parag3 {
+        position: relative;
+        left: 1px;
+        width: 90%;
+        bottom: 20px;
+    }
+
+    .Quest4 {
+        width: 90%;
+        position: relative;
+        right: 35px;
+        bottom: 30px;
+    }
+
+    .Parag4 {
+        width: 90%;
+        position: relative;
+        left: 19px;
+    }
+
+}
+
+@media (max-width:390px) {
+    .header {
+        position: relative;
+        left: 15px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .Parag1 {
+        position: relative;
+        margin-left: 20px;
+
+    }
+    .footer{
+        margin-left: 30px;
+    }
+}
+@media (max-width:430px){
+        .imge {
+        position: relative;
+        left: 110px;
+    }
+
+    .Titre1 {
+        margin-right: 10px;
+    }
+
+    .Div1 {
+        display: block;
+    }
+
+    .Quest1 {
+        width: 90%;
+        height: 6%;
+        position: relative;
+        top: 10px;
+        left: 2px;
+
+    }
+
+    .Parag1 {
+        position: relative;
+        left: 18px;
+        width: 90%;
+    }
+
+    .Quest2 {
+        position: relative;
+        left: 10px;
+    }
+
+    .Parag2 {
+        position: relative;
+        left: 1px;
+        width: 90%;
+    }
+
+    .Quest3 {
+        width: 90%;
+        position: relative;
+        right: 29px;
+        bottom: 30px;
+    }
+
+    .Parag3 {
+        position: relative;
+        left: 1px;
+        width: 90%;
+        bottom: 20px;
+    }
+
+    .Quest4 {
+        width: 90%;
+        position: relative;
+        right: 35px;
+        bottom: 30px;
+    }
+
+    .Parag4 {
+        width: 90%;
+        position: relative;
+        left: 19px;
+    }
+
+}
+@media (max-width:450px){
+    .logo{
+        margin-right: 50xp;
+    }
+    .header{
+        margin-left: 25px;
+    }
+}
